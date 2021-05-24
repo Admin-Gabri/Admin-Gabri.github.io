@@ -1,0 +1,82 @@
+* {
+  font-size: large;
+  font-family: monospace;
+  font-weight: 1000;
+  font-size: 20px;
+}
+.titulo {
+  text-align: center;
+  color: rgb(107, 204, 10);
+  font-size: 35px;
+}
+.cabecera {
+  background-color: rgb(77, 220, 224);
+}
+.menu {
+  background-color: hsl(51, 81%, 55%);
+}
+.contenido {
+  background-color: rgba(195, 184, 245, 0.719);
+}
+.formulario {
+  color: rgb(81, 81, 226);
+}
+.pie {
+  background-color: rgb(20, 167, 167);
+}
+body {
+  background-color: #25d366;
+}
+.contenedor {
+  background-color: rgb(83, 236, 142);
+}
+.datos {
+  text-align: left;
+  color: green;
+  font-style: normal;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-size: 10px;
+}
+.parrafo {
+  font-style: oblique;
+  color: darkslategrey;
+}
+.parrafoimagen {
+  color: darkslategrey;
+  text-align: center;
+  font-weight: bold;
+  font-size: 37%;
+}
+
+.parrafotransparencia {
+  background-color: rgb(214, 240, 217);
+  opacity: 75%;
+  color: rgb(100, 177, 27);
+}
+
+.cuestionario {
+  border-style: solid;
+  border-color: blueviolet;
+}
+
+i {
+  font-size: 40px;
+}
+
+.fa-facebook-square {
+  color: #3b5998;
+  align-items: center;
+}
+
+.fa-youtube {
+  color: #ff0000;
+}
+
+.fa-telegram {
+  color: #0088cc;
+}
+
+.fa-whatsapp-square {
+  color: #25d366;
+}

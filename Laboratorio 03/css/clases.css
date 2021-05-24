@@ -1,0 +1,20 @@
+.titulo {
+  color: rgb(123, 201, 201);
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.subtitulos {
+  color: rgb(47, 201, 124);
+  font-weight: bolder;
+}
+
+.parrafos {
+  color: rgb(10, 153, 197);
+  font-style: italic;
+}
+
+.barra {
+  background-color: rgb(169, 111, 236);
+  height: 10px;
+}

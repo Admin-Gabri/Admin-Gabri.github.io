@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajando con Formularios</title>
+    <script src="https://kit.fontawesome.com/97d3d98c02.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/CV.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <fieldset>
+    <form>
+        <div class="contenedor">
+            <div><h1 class="titulo">CV del empleado</h1></div>
+            <div class="cabecera">Somos Avilane Company</div>
+            <div class="menu">Menu Principal</div>
+            <img class="contenido">
+            <hr>
+            <h1>¡¡¡Buscamos un empleado para nuestra compañia!!!</h1><hr>
+            <img src="img/formulario.jpg" class="parrafoimagen" border="4" height="300" width="250" alt="Formulario empleado"align="left" hspace="15"></img>
+            <p class="parrafo">
+            Si quieres trabajar en Avilane Company y tienes el potencial para sacarnos adelante contra la competencia, entonces este es el lugar indicado para empleados como ust.
+            Te daremos un espacio tranquilo y comodo de trabajo para que nuestro trabajador no este padeciendo en sus horas laborales,
+            y por ultimo accederas a analizar sobre como vamos avanzando en el mercado a nivel nacional y mundial y ver como estamos posicionados en la actualidad.
+            </p><hr>
+            <fieldset>
+                <legend class="datos"><label>Datos Personales:</label><br></legend>
+                <label for="txtNom">Nombres:</label> <input type="text" name="txtNom" id="txtNom" placeholder="Ingrese sus Nombres" required><br>
+                <label for="txtApe">Apellidos:</label> <input type="text" name="txtApe" id="txtApe" placeholder="Ingrese sus Apellidos" required><br><hr>
+                <label for="txtEdad">Edad:</label> <input type="text" name="Edad" id="Edad" placeholder="Ingrese su Edad" required><br>
+                <label>Sexo:</label> <input type="radio" name="sexo" id="rbM"><label for="rbM">Masculino</label> <input type="radio" name="sexo" id="rbF"><label for="rbF">Femenino</label><br>
+                ¿Eres nuevo o ya estuviste con nosotros?<input type="radio" name="categoria">Nuevo <input type="radio" name="categoria">Antiguo<br></input><hr>
+                <label for="txtDir">Dirección:</label> <input type="text" name="txtDir" id="txtDir" placeholder="Ingrese su Dirección" required><br>
+                <label for="cboDistrito">Distrito:</label>
+                <select name="cboDistrito" id="cbo Distrito" required>
+                    <option value="0">Seleccione un distrito</option>
+                    <option value="1">Cercado de Lima</option>
+                    <option value="2">Breña</option>
+                    <option value="3">San Juan de Lurigando</option>
+                    <option value="4">Jesus María</option>
+                    <option value="5">La Molina</option>
+                    <option value="6">San Martin de Porres</option>
+                    <option value="7">La Victoria</option>
+                    <option value="8">San Luis</option>
+                    <option value="9">San Borja</option>
+                    <option value="10">Lince</option>
+                </select><br><hr>
+                <label for="Correo">Correo Electrónico:</label> <input type="email" name="Correo" id="Correo" placeholder="Ingrese su correo electrónico" required><br>
+                <label for="Telefono" Telefono>Telefono:</label> <input type="tel" name="Telefono" id="Telefono" placeholder="Numero de celular o Telefono" required><br><hr>
+                Fecha de nacimiento: <input type="date"><br>
+                <label for="txtDNI">Numero de Documento:</label> <input type="text" name="txtDNI" id="txtDNI" placeholder="Ingrese su DNI" required><br>
+                Hora local: <input type="datetime-local"><br><hr>
+                ¿Te intereso nuestra empresa? <input type="range"><br>
+                Input Time: <input type="time"><br><hr>
+                Opiniones:<br>
+                <Textarea></Textarea>
+                    <input type="submit"><br>
+                    <input type="image" src="img/contratar.jpg" align="right" height="225" width="500"><br>
+                    <input type="file"><br>
+            </fieldset>
+            <input type="submit" name="btnregistrar" id="btnregistrar" value="Registrar">
+            <button type="button" name="btactualizar" id="btactualizar">Actualizar</button>
+            <button type="reset" name="btleliminar" id="btleliminar">Eliminar</button>
+            <div>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-whatsapp-square"></i>
+                <i class="fab fa-telegram"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+            </div><hr>
+            <center><div class="pie">Aqui concluye la encuesta, muchas gracias por responderla</div><hr></center>
+        </div>
+    </form>
+</div>
+<a href="index.html">Regresar al Menu Principal</a> 
+</body>
+</html>
