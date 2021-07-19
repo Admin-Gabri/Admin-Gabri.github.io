@@ -3,21 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Como primer paso, configuramos las escalas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- Recordar la importacia de estos meta -->
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <title>Contenedor de Html</title>
+    <title>Ejemplo 2 Maquetacion Html</title>
+    <!-- llamamos al estilo -->
+    <link rel="stylesheet" href="css/miestilo.css" type="text/css">
 </head>
 <body>
     <!-- inicia el contenedor -->
-    <div>
+    <div class="contenedor">
         <!-- Inicia Cabecera -->
     <header>
         <!-- Inicia el menu -->
         <nav>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Acerca de</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="acercade.html">Acerca de</a></li>
                 <li><a href="#">Productos</a></li>
                 <li><a href="#">Contacto</a></li>
             </ul>
@@ -26,18 +30,18 @@
     </header>
     <!-- Fin Cabecera -->
     <!-- inicia la seccion principal -->
-    <section>
+    <section class="principal">
         <!-- Inica la Imagen -->
-        <div>
+        <div class="imagen">
             <img src="img/foto1.jpg" alt="Foto Principal">
         
         </div>
         <!-- Fin de la Imagen -->
         <!-- Inicia Publicaciones -->
-        <section>
+        <section class="publicaciones">
             <!-- Inicia Articulo -->
             <article>
-                <h2>Titulo del Artículo</h2>
+                <h2>Acerca de</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident cupiditate nostrum quasi culpa saepe illo velit tempora rem voluptatum! Optio laborum explicabo, aut doloremque ratione ipsum! Quos, debitis enim.
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tenetur voluptatibus eum est molestiae at doloribus perferendis laudantium, porro quod obcaecati sint eaque ullam odio. Obcaecati, quidem temporibus. Sequi, reiciendis!
@@ -57,13 +61,8 @@
     <!-- Inicia Anuncios -->
     <aside>
         <!-- Inicia Destacados -->
-        <div>
-
-        </div>
-        <!-- Fin Destacados -->
-        <!-- Inicia Informacion -->
-        <div>
-            <h3>Artículos Destacados</h3>
+        <div class="anuncio">
+            <h3 class="tituloanuncio">Artículos Destacados</h3>
             <ul>
                 <li><a href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</a></li>
                 <li><a href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</a></li>
@@ -71,12 +70,11 @@
                 <li><a href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</a></li>
                 <li><a href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</a></li>
             </ul>
-
         </div>
-        <!-- Fin Informacion -->
+        <!-- Fin Destacados -->
         <!-- Inicia Informacion -->
-        <div>
-            <h3>Informacion</h3>
+        <div class="anuncio">
+            <h3 class="tituloanuncio">Informacion</h3>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione perspiciatis adipisci dolorem recusandae aliquid ipsam? Corrupti, esse nostrum commodi error velit magnam, asperiores magni nemo incidunt ipsa facere delectus amet.
             </p>
@@ -87,6 +85,7 @@
     <!-- Inicio Pie -->
     <footer>
         <p> Gabriel Gustavo Gomez Paz 2021 - Todos los derechos reservados</p>
+        <li><a href="/index.html">Regresar al Menu Principal</a></li>
     </footer>
     <!-- Fin Pie -->
     </div>
