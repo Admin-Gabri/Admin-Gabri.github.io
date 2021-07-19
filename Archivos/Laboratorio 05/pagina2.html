@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/alumno.css">
+    <title>Firebase - Parte 1</title>
+</head>
+<body>
+    <form action="">
+        <div class="cajas">
+            <label for="txtNom">Nombre del producto:</label>
+            <input type="text" name="txtNom" id="txtNom">
+            <br>
+            <label for="txtPre">Precio</label>
+            <input type="number" name="txtPre" id="txtPre">
+            <br>
+            <label for="txtCan">Cantidad:</label>
+            <input type="number" name="txtCan" id="txtCan">
+            <br>
+        </div>
+        <div class="casilla">
+            <label for="cbocategoria">Categoria:</label>
+            <select name="cbocategoria" id="cbocategoria">
+                <option value="0">Seleccion una categoria:</option>
+                <option value="1">Entretenimiento</option>
+                <option value="2">Tecnologia</option>
+                <option value="3">Linea Blanca</option>
+            </select>
+        <br><br>
+        </div>
+        <input class="boton" type="button" value="Registrar" id="btnRegistrar" name="btnRegistrar"><br>
+        <input class="boton" type="reset" value="Limpiar" id="btnLimpiar" name="btnLimpiar"><br>
+        <ul class="error" name="error" id="error"></ul>
+    </form>
+    <hr>
+    <table id="tbProducto">
+        <thead>
+            <th>Nombre</th>
+            <th>Categoria</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="js/producto.js" type="text/javascript"></script>
+    <script src="js/bibliotecaproducto.js" type="text/javascript"></script>
+</body>
+</html>

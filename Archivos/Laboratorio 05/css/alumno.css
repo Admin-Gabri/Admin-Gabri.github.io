@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body{
+    font-family: 'Benne', serif;
+    font-size: 18px;
+    background-color: #f2f2f225;
+}
+
+.contenedor{
+    width: 400px;
+    margin: 40px auto;
+    background: white;
+}
+
+.cajas{
+    padding: 20px;
+    border-radius: 6px 6px 0 0;
+    background: white;
+}
+
+input[type="text"], input[type="mail"], input[type="number"]{
+    display: block;
+    width: 100%;    
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-family: 'Benne', serif;
+    font-size: 18px;
+}
+
+input[type="text"]:focus, input[type="mail"], input[type="number"]:focus{
+    border-bottom: 2px solid #14ac92;
+}
+
+.radios{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    color: #424242;
+    padding: 10px 10px;
+    text-align: center;
+    font-family: 'Benne', serif;
+    font-size: 18px
+}
+
+.radios label{
+    margin-left: 10px;
+}
+
+.casilla{
+    text-align: center;
+    color: #424242;
+}
+
+.casilla label{
+    margin-left: 10px;
+}
+
+.boton{
+    width: 100%;
+    text-align: center;
+    background: darkslateblue;
+    color: white;
+    border: none;
+    display: block;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 0 0 6px 6px;
+    font-family: 'Benne', serif;
+    font-size: 18px
+}
+
+.boton:hover{
+    background-color: rgb(100, 86, 190);
+}
+
+.error{
+    display: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #1fc59c;
+    color: white;
+    padding: 15px 10px;
+    padding-left: 40px;
+}
+
+.alumnos{
+    position: relative;
+    margin-left: 600px;
+}
